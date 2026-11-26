@@ -20,7 +20,6 @@ This project implements a clean binary classification pipeline that:
 ```text
 ├── Heart_Disease_Prediction_Logistic_Regression.ipynb   # Main Google Colab / Jupyter notebook (with pre-rendered outputs)
 ├── heart.csv                                           # Kaggle clinical dataset
-├── Logistic_Regression_Model.ipynb                     # Reference baseline notebook
 └── README.md                                           # Project documentation
 ```
 
@@ -104,3 +103,9 @@ In real-world healthcare diagnostics:
 - **Interpretability:** Doctors need to understand *why* a prediction was made. Logistic Regression produces direct coefficients (odds ratios) for each medical test.
 - **Low Overfitting Risk:** On small-to-medium clinical cohorts, simple linear decision boundaries generalize reliably.
 - **Fast & Lightweight:** Requires minimal compute resources and can run directly in resource-constrained hospital hardware or edge devices.
+
+
+## 🤝 Acknowledgments & Special Thanks
+
+Special thanks to **[complexiota](https://github.com/complexiota)** ([https://github.com/complexiota](https://github.com/complexiota)) and **[Ravi Parkhe](https://github.com/RaviParkhe)** for the guidance, mentorship, and support that helped build this project!
+
